@@ -1,24 +1,21 @@
+// explicit types
+var character;
+var age;
+age = 30;
+// age = 'fdls'
 // arrays
-var names = ["luigi", "mario", "yushi"];
-names.push("toad");
-// names.push(2);
-names[0] = "jfdka";
-var numbers = [23, 43, 34];
-numbers[0] = 67;
-// numbers[1] = "dfsjal";
-var mixed = ["ndfjksal", 32, "jfkldsa"];
-mixed.push("nfkdls");
-mixed.push(78);
-// mixed.push(true);
+var ninjas;
+[];
+// ninjas.push("s");
+// unions
+var mixed = [];
+mixed.push("hello");
+mixed.push(34);
+// mixed.push(true)
+console.log(mixed);
 // objects
-var ninja = {
-    name: "mario",
-    age: 34,
-};
-ninja.age = 40;
-// ninja.age = 'jfdksa'
-// ninja.skills = "fghting";
-ninja = {
-    name: "jfkdlsl",
-    age: 34,
-};
+var uid;
+var ninjaOne;
+ninjaOne = { name: "yoshi", age: 30 };
+var ninjaTwo;
+ninjaTwo = { name: "luigi", age: 77 };
