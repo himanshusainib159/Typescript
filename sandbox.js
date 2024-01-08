@@ -1,17 +1,24 @@
-var character = "luigi";
-var dog;
-dog = 23;
-dog = 34;
-dog = "fdks";
-console.log(character);
-console.log(dog);
-var inputs = document.querySelectorAll("input");
-console.log(inputs);
-inputs.forEach(function (input) {
-    console.log(input);
-});
-// character = 20;
-var circ = function (diameter) {
-    return diameter * Math.PI;
+// arrays
+var names = ["luigi", "mario", "yushi"];
+names.push("toad");
+// names.push(2);
+names[0] = "jfdka";
+var numbers = [23, 43, 34];
+numbers[0] = 67;
+// numbers[1] = "dfsjal";
+var mixed = ["ndfjksal", 32, "jfkldsa"];
+mixed.push("nfkdls");
+mixed.push(78);
+// mixed.push(true);
+// objects
+var ninja = {
+    name: "mario",
+    age: 34,
 };
-console.log(circ(1));
+ninja.age = 40;
+// ninja.age = 'jfdksa'
+// ninja.skills = "fghting";
+ninja = {
+    name: "jfkdlsl",
+    age: 34,
+};
