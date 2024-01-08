@@ -1,31 +1,10 @@
-// explicit types
-let character: string;
-let age: number;
-age = 30;
-// age = 'fdls'
+// dynamic Types(any)
 
-// arrays
-let ninjas: string;
-[];
-// ninjas.push("s");
+let age: any;
+let age2: any = 25;
 
-// unions
-let mixed: (string | number)[] = [];
-mixed.push("hello");
-mixed.push(34);
-// mixed.push(true)
-console.log(mixed);
+let mixed: any[] = [];
 
-// objects
-
-let uid: string | number;
-
-let ninjaOne: object;
-ninjaOne = { name: "yoshi", age: 30 };
-
-let ninjaTwo: {
-  name: string;
-  age: number;
-};
-
-ninjaTwo = { name: "luigi", age: 77 };
+let ninja: { name: any };
+// let ninja1: object
+// ninja1 = {name:'jdfkak', age:23, isMale: true}
